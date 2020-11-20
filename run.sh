@@ -1,0 +1,1 @@
+docker build -t mocking-spongebot . && docker run -d mocking-spongebot

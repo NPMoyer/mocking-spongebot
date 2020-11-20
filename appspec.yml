@@ -1,0 +1,10 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /home/ubuntu/mocking-spongebot
+hooks:
+  AfterInstall:
+    - location: ./run.sh
+      timeout: 1200
+      runas: root
